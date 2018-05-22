@@ -6,7 +6,7 @@ copy the token
 head to command line:
 - bundle install
 - export CURRENCYLAYER_API_KEY=YOU_KEY_HERE
-- SLACK_API_TOKEN=YOUR_SLACK_TOKEN bundle exec ruby app/models/cringle_money_bot.rb
+- SLACK_API_TOKEN=YOUR_SLACK_TOKEN bundle exec ruby app/services/cringle_money_bot.rb
 
 Text the bot:
 - help
