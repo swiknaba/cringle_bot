@@ -1,24 +1,16 @@
-# README
+# HOW TO
+head to [http://slack.com/services/new/bot] and register a new bot
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+copy the token
 
-Things you may want to cover:
+head to command line:
+- bundle install
+- export CURRENCYLAYER_API_KEY=YOU_KEY_HERE
+- SLACK_API_TOKEN=YOUR_SLACK_TOKEN bundle exec ruby app/models/cringle_money_bot.rb
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Text the bot:
+- help
+- 10 eur to cny
+- 10 eur to usd, aud
+- eur to usd, cny
+- eur to gbp
