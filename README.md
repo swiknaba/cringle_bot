@@ -1,3 +1,5 @@
+This is just a quickly hacked together slack-bot meant to work together with [https://github.com/swiknaba/cringle_money].
+
 # HOW TO
 head to [http://slack.com/services/new/bot] and register a new bot
 
